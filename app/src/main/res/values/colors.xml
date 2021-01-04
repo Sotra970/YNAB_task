@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="dark_text">#212121</color>
+    <color name="semi_dark_text">@color/grey_700</color>
+</resources>

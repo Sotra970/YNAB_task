@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+  <data>
+    <variable
+        name="adapter"
+        type="sotra.ynab.ui.budgetFragment.BudgetAdapter" />
+    <import type="android.view.View"/>
+    <import type="sotra.ynab.ui.budgetFragment.BudgetFragment"/>
+    <variable
+        name="viewModel"
+        type="sotra.ynab.ui.budgetFragment.BudgetViewModel" />
+    <variable
+        name="retryCallback"
+        type="sotra.ynab.util.RetryCallback" />
+  </data>
+
+  <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      tools:context=".ui.budgetFragment.BudgetFragment">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        app:adapter="@{adapter}"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/budget_item"
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <include
+        android:id="@+id/loading"
+        layout="@layout/loading_layout"
+        app:viewModelVisible="@{viewModel.loading}"
+        />
+    <include
+        android:id="@+id/network"
+        layout="@layout/no_internet_layout"
+        app:viewModelVisible="@{viewModel.networkStatus}"
+        app:retryCallback="@{retryCallback}"
+        />
+
+  </FrameLayout>
+</layout>
