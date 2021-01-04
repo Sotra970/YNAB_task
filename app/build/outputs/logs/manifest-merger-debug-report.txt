@@ -1,0 +1,338 @@
+-- Merging decision tree log ---
+manifest
+ADDED from G:\20 env\YNABtask\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from G:\20 env\YNABtask\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from G:\20 env\YNABtask\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from G:\20 env\YNABtask\app\src\main\AndroidManifest.xml:2:1-24:12
+MERGED from [androidx.databinding:databinding-adapters:4.1.1] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\7f457bb1f955c8770f4d1ae1d8dc92e2\databinding-adapters-4.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.databinding:databinding-runtime:4.1.1] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\bcaffd2f38736ecffc43cd82efd2a94e\databinding-runtime-4.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.databinding:viewbinding:4.1.1] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\6369c629bc2f4693ba344417d733754f\jetified-viewbinding-4.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-dynamic-features-fragment:2.3.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\cebd55d33728a597b3ffa4a442941f97\jetified-navigation-dynamic-features-fragment-2.3.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\c7f119b1ce98814cd519ded6aa6229c8\navigation-fragment-ktx-2.3.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.2.5] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\f5af60a98cceaf409ce44de7a69fc740\jetified-fragment-ktx-1.2.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\686bf00e7d433da2251517f9c3243073\navigation-ui-ktx-2.3.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-dynamic-features-runtime:2.3.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\bf3c5f7310306e3c9df31aa5f10357fd\jetified-navigation-dynamic-features-runtime-2.3.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\adc1070b8f6ba94804390ebf007c13b3\navigation-runtime-ktx-2.3.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.1.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\9d72d0146d0ae2efb201d61eefe2870b\jetified-activity-ktx-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\e9c8942ee09b43cc660c8b85b723df2a\navigation-common-ktx-2.3.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\60a3ede8f62cd6a9760c0420f9b0acdc\jetified-core-ktx-1.3.2\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.2.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\ea692893a6a0c9e2e70282a53b764081\jetified-lifecycle-livedata-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\f2c508f6af61f5526fa758ac20150ef0\jetified-lifecycle-viewmodel-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\f6ccefaab710b3a7d961e51a311e7035\jetified-lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\76b11bb4b59fa1837f39b04f184e15b1\jetified-lifecycle-livedata-core-ktx-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui:2.3.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\c739ea97859cb9b00d7d46c5d2f3196e\navigation-ui-2.3.2\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\98e3014bcee15bd46bcf3380ba8252cf\material-1.2.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\e44761eca758e9f8d5392edca4bfc858\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.dagger:dagger-android-support:2.21] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\9378a3c35f7e5db8f2b13f34a4f88afd\jetified-dagger-android-support-2.21\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\7471fdcccb00b56c76cd94ca7ebb7f29\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\840501d69158b8a9708ec605755bafe0\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\b803c3220ae289c48a59088d3300f02a\jetified-timber-4.7.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.dagger:dagger-android:2.21] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\90f203b3098308415735415e47e96b34\jetified-dagger-android-2.21\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\cf7dce7e58caedd6b4f3d0708b1f7f13\lifecycle-extensions-2.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\65fa26ee9cca3c42585f0a472d63069d\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment:2.3.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\cf4fb5c8ddfc636ab89a5bc380832159\navigation-fragment-2.3.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.2.5] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\64c8450c7e3d25de4e462304f8af668e\fragment-1.2.5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\7679e8fbef9c4f9d9431f5754e3a502c\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\20b832a3ecb1da93a24cfc19c54584d2\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\c58faf481c0036b15960b118848a92bd\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.3.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\e19c807d81e335e317183a2acb0192a1\navigation-runtime-2.3.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\876b319371ae2d22686195926b7c6fc4\jetified-activity-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\bc77eee6b02de5cd40a189794b96a3a6\jetified-lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\3e9158a67c4968dc8e2698484b35b4ca\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-reactivestreams:2.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\c8b85ff13e97c15fb014cc991f0415d1\lifecycle-reactivestreams-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\c862d5fab39e6b0121787415469d6865\lifecycle-livedata-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\63900161fd279b88ee12bdeb5835a1c6\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\4f39a16c95ddc2c9a35eae82001784df\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\bd41096e3c1ead25ed959a7525e4e65a\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\72265dc352446af4a50eaf5e8e0355f5\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\6b98d1f1f59b378a6a910063347128df\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\af570453806b6408377c414a875f63b3\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\ad9f3d1942d155ee0c942b9cc95ab0ad\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\3dc343a321545abe4e5b9791827c50f2\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\0c2877248144bee24c77003c69ea3de2\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\e91163ec30e20f36bf9d029b00456e12\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\9866630e12f4d56a500f1c7e4a5bac8d\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\6d494dc9a71dcb0e7481a23a1e532c06\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\2932a2284aa3e3feac3258b6c64e0d84\transition-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.3.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\3acce5c6fb8d1ca2d653f3467d68443b\navigation-common-2.3.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.3.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\8c17da089cfa75fedd43d8f9948d1041\core-1.3.2\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\f62662b0ce2fabcd939ec3f52e6fba0f\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\d1ef1cb9a34309a52512947e7f12ac09\jetified-lifecycle-service-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\d5abd10ad3e499c61d9ef8fbbdf4ab4b\lifecycle-runtime-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\c078272352087454a317bc1e955d1572\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\b4e3d532469a36b1dec8884bcd610572\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\55e2763ef3ca7294c3f4e2ec76e1e4ca\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\1744b300cff6cbc7f683293f3a5b328e\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\1a1fb20f291193927db8f525687dbca9\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\dc6ecf7e6c8cb018bcbde83d58bc2864\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\d8ee733d5b7f1dc310ba2874ab175b64\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\4abd6ae74d5fdf3c5c0230ef29810492\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\81cd9d62923d80a124984255f57937fd\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\ed03b7c042ce26deb9e53e66b70deeee\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\f12b57af9a1c346ef79190f9d4fb0b3e\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.play:core:1.7.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\8aee49ea9af652245993b2fee1da7d2e\jetified-core-1.7.2\AndroidManifest.xml:2:1-19:12
+INJECTED from G:\20 env\YNABtask\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from G:\20 env\YNABtask\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from G:\20 env\YNABtask\app\src\main\AndroidManifest.xml:2:1-24:12
+	package
+		ADDED from G:\20 env\YNABtask\app\src\main\AndroidManifest.xml:3:5-25
+		INJECTED from G:\20 env\YNABtask\app\src\main\AndroidManifest.xml
+		INJECTED from G:\20 env\YNABtask\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from G:\20 env\YNABtask\app\src\main\AndroidManifest.xml
+		ADDED from G:\20 env\YNABtask\app\src\main\AndroidManifest.xml:2:1-24:12
+		INJECTED from G:\20 env\YNABtask\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from G:\20 env\YNABtask\app\src\main\AndroidManifest.xml
+		ADDED from G:\20 env\YNABtask\app\src\main\AndroidManifest.xml:2:1-24:12
+		INJECTED from G:\20 env\YNABtask\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from G:\20 env\YNABtask\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from G:\20 env\YNABtask\app\src\main\AndroidManifest.xml:5:5-66
+	android:name
+		ADDED from G:\20 env\YNABtask\app\src\main\AndroidManifest.xml:5:22-64
+application
+ADDED from G:\20 env\YNABtask\app\src\main\AndroidManifest.xml:6:5-22:19
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\98e3014bcee15bd46bcf3380ba8252cf\material-1.2.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\98e3014bcee15bd46bcf3380ba8252cf\material-1.2.1\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\e44761eca758e9f8d5392edca4bfc858\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\e44761eca758e9f8d5392edca4bfc858\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\b803c3220ae289c48a59088d3300f02a\jetified-timber-4.7.1\AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\b803c3220ae289c48a59088d3300f02a\jetified-timber-4.7.1\AndroidManifest.xml:7:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\cf7dce7e58caedd6b4f3d0708b1f7f13\lifecycle-extensions-2.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\cf7dce7e58caedd6b4f3d0708b1f7f13\lifecycle-extensions-2.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.core:core:1.3.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\8c17da089cfa75fedd43d8f9948d1041\core-1.3.2\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\8c17da089cfa75fedd43d8f9948d1041\core-1.3.2\AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\f62662b0ce2fabcd939ec3f52e6fba0f\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\f62662b0ce2fabcd939ec3f52e6fba0f\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:22:5-28:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\55e2763ef3ca7294c3f4e2ec76e1e4ca\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\55e2763ef3ca7294c3f4e2ec76e1e4ca\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.android.play:core:1.7.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\8aee49ea9af652245993b2fee1da7d2e\jetified-core-1.7.2\AndroidManifest.xml:10:3-17:17
+MERGED from [com.google.android.play:core:1.7.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\8aee49ea9af652245993b2fee1da7d2e\jetified-core-1.7.2\AndroidManifest.xml:10:3-17:17
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\8c17da089cfa75fedd43d8f9948d1041\core-1.3.2\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from G:\20 env\YNABtask\app\src\main\AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from G:\20 env\YNABtask\app\src\main\AndroidManifest.xml:10:9-41
+	android:roundIcon
+		ADDED from G:\20 env\YNABtask\app\src\main\AndroidManifest.xml:11:9-54
+	android:icon
+		ADDED from G:\20 env\YNABtask\app\src\main\AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from G:\20 env\YNABtask\app\src\main\AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from G:\20 env\YNABtask\app\src\main\AndroidManifest.xml:13:9-46
+	android:name
+		ADDED from G:\20 env\YNABtask\app\src\main\AndroidManifest.xml:7:9-37
+activity#sotra.ynab.MainActivity
+ADDED from G:\20 env\YNABtask\app\src\main\AndroidManifest.xml:14:9-21:20
+	android:name
+		ADDED from G:\20 env\YNABtask\app\src\main\AndroidManifest.xml:15:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from G:\20 env\YNABtask\app\src\main\AndroidManifest.xml:16:13-20:29
+action#android.intent.action.MAIN
+ADDED from G:\20 env\YNABtask\app\src\main\AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from G:\20 env\YNABtask\app\src\main\AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from G:\20 env\YNABtask\app\src\main\AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from G:\20 env\YNABtask\app\src\main\AndroidManifest.xml:19:27-74
+uses-sdk
+INJECTED from G:\20 env\YNABtask\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from G:\20 env\YNABtask\app\src\main\AndroidManifest.xml
+INJECTED from G:\20 env\YNABtask\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:databinding-adapters:4.1.1] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\7f457bb1f955c8770f4d1ae1d8dc92e2\databinding-adapters-4.1.1\AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-adapters:4.1.1] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\7f457bb1f955c8770f4d1ae1d8dc92e2\databinding-adapters-4.1.1\AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:4.1.1] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\bcaffd2f38736ecffc43cd82efd2a94e\databinding-runtime-4.1.1\AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:4.1.1] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\bcaffd2f38736ecffc43cd82efd2a94e\databinding-runtime-4.1.1\AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:viewbinding:4.1.1] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\6369c629bc2f4693ba344417d733754f\jetified-viewbinding-4.1.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:4.1.1] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\6369c629bc2f4693ba344417d733754f\jetified-viewbinding-4.1.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-dynamic-features-fragment:2.3.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\cebd55d33728a597b3ffa4a442941f97\jetified-navigation-dynamic-features-fragment-2.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-dynamic-features-fragment:2.3.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\cebd55d33728a597b3ffa4a442941f97\jetified-navigation-dynamic-features-fragment-2.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\c7f119b1ce98814cd519ded6aa6229c8\navigation-fragment-ktx-2.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.3.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\c7f119b1ce98814cd519ded6aa6229c8\navigation-fragment-ktx-2.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.5] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\f5af60a98cceaf409ce44de7a69fc740\jetified-fragment-ktx-1.2.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.5] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\f5af60a98cceaf409ce44de7a69fc740\jetified-fragment-ktx-1.2.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\686bf00e7d433da2251517f9c3243073\navigation-ui-ktx-2.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.3.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\686bf00e7d433da2251517f9c3243073\navigation-ui-ktx-2.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-dynamic-features-runtime:2.3.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\bf3c5f7310306e3c9df31aa5f10357fd\jetified-navigation-dynamic-features-runtime-2.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-dynamic-features-runtime:2.3.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\bf3c5f7310306e3c9df31aa5f10357fd\jetified-navigation-dynamic-features-runtime-2.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\adc1070b8f6ba94804390ebf007c13b3\navigation-runtime-ktx-2.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.3.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\adc1070b8f6ba94804390ebf007c13b3\navigation-runtime-ktx-2.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\9d72d0146d0ae2efb201d61eefe2870b\jetified-activity-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\9d72d0146d0ae2efb201d61eefe2870b\jetified-activity-ktx-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\e9c8942ee09b43cc660c8b85b723df2a\navigation-common-ktx-2.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.3.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\e9c8942ee09b43cc660c8b85b723df2a\navigation-common-ktx-2.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\60a3ede8f62cd6a9760c0420f9b0acdc\jetified-core-ktx-1.3.2\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\60a3ede8f62cd6a9760c0420f9b0acdc\jetified-core-ktx-1.3.2\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.2.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\ea692893a6a0c9e2e70282a53b764081\jetified-lifecycle-livedata-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.2.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\ea692893a6a0c9e2e70282a53b764081\jetified-lifecycle-livedata-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\f2c508f6af61f5526fa758ac20150ef0\jetified-lifecycle-viewmodel-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\f2c508f6af61f5526fa758ac20150ef0\jetified-lifecycle-viewmodel-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\f6ccefaab710b3a7d961e51a311e7035\jetified-lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\f6ccefaab710b3a7d961e51a311e7035\jetified-lifecycle-runtime-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\76b11bb4b59fa1837f39b04f184e15b1\jetified-lifecycle-livedata-core-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\76b11bb4b59fa1837f39b04f184e15b1\jetified-lifecycle-livedata-core-ktx-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\c739ea97859cb9b00d7d46c5d2f3196e\navigation-ui-2.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\c739ea97859cb9b00d7d46c5d2f3196e\navigation-ui-2.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\98e3014bcee15bd46bcf3380ba8252cf\material-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.2.1] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\98e3014bcee15bd46bcf3380ba8252cf\material-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\e44761eca758e9f8d5392edca4bfc858\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\e44761eca758e9f8d5392edca4bfc858\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.dagger:dagger-android-support:2.21] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\9378a3c35f7e5db8f2b13f34a4f88afd\jetified-dagger-android-support-2.21\AndroidManifest.xml:20:5-44
+MERGED from [com.google.dagger:dagger-android-support:2.21] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\9378a3c35f7e5db8f2b13f34a4f88afd\jetified-dagger-android-support-2.21\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\7471fdcccb00b56c76cd94ca7ebb7f29\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\7471fdcccb00b56c76cd94ca7ebb7f29\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\840501d69158b8a9708ec605755bafe0\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\840501d69158b8a9708ec605755bafe0\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\b803c3220ae289c48a59088d3300f02a\jetified-timber-4.7.1\AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\b803c3220ae289c48a59088d3300f02a\jetified-timber-4.7.1\AndroidManifest.xml:5:5-43
+MERGED from [com.google.dagger:dagger-android:2.21] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\90f203b3098308415735415e47e96b34\jetified-dagger-android-2.21\AndroidManifest.xml:20:5-44
+MERGED from [com.google.dagger:dagger-android:2.21] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\90f203b3098308415735415e47e96b34\jetified-dagger-android-2.21\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\cf7dce7e58caedd6b4f3d0708b1f7f13\lifecycle-extensions-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\cf7dce7e58caedd6b4f3d0708b1f7f13\lifecycle-extensions-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\65fa26ee9cca3c42585f0a472d63069d\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\65fa26ee9cca3c42585f0a472d63069d\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\cf4fb5c8ddfc636ab89a5bc380832159\navigation-fragment-2.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\cf4fb5c8ddfc636ab89a5bc380832159\navigation-fragment-2.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.5] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\64c8450c7e3d25de4e462304f8af668e\fragment-1.2.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.5] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\64c8450c7e3d25de4e462304f8af668e\fragment-1.2.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\7679e8fbef9c4f9d9431f5754e3a502c\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\7679e8fbef9c4f9d9431f5754e3a502c\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\20b832a3ecb1da93a24cfc19c54584d2\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\20b832a3ecb1da93a24cfc19c54584d2\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\c58faf481c0036b15960b118848a92bd\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\c58faf481c0036b15960b118848a92bd\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.3.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\e19c807d81e335e317183a2acb0192a1\navigation-runtime-2.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\e19c807d81e335e317183a2acb0192a1\navigation-runtime-2.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\876b319371ae2d22686195926b7c6fc4\jetified-activity-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\876b319371ae2d22686195926b7c6fc4\jetified-activity-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\bc77eee6b02de5cd40a189794b96a3a6\jetified-lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\bc77eee6b02de5cd40a189794b96a3a6\jetified-lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\3e9158a67c4968dc8e2698484b35b4ca\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\3e9158a67c4968dc8e2698484b35b4ca\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-reactivestreams:2.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\c8b85ff13e97c15fb014cc991f0415d1\lifecycle-reactivestreams-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-reactivestreams:2.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\c8b85ff13e97c15fb014cc991f0415d1\lifecycle-reactivestreams-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\c862d5fab39e6b0121787415469d6865\lifecycle-livedata-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\c862d5fab39e6b0121787415469d6865\lifecycle-livedata-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\63900161fd279b88ee12bdeb5835a1c6\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\63900161fd279b88ee12bdeb5835a1c6\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\4f39a16c95ddc2c9a35eae82001784df\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\4f39a16c95ddc2c9a35eae82001784df\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\bd41096e3c1ead25ed959a7525e4e65a\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\bd41096e3c1ead25ed959a7525e4e65a\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\72265dc352446af4a50eaf5e8e0355f5\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\72265dc352446af4a50eaf5e8e0355f5\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\6b98d1f1f59b378a6a910063347128df\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\6b98d1f1f59b378a6a910063347128df\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\af570453806b6408377c414a875f63b3\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\af570453806b6408377c414a875f63b3\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\ad9f3d1942d155ee0c942b9cc95ab0ad\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\ad9f3d1942d155ee0c942b9cc95ab0ad\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\3dc343a321545abe4e5b9791827c50f2\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\3dc343a321545abe4e5b9791827c50f2\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\0c2877248144bee24c77003c69ea3de2\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\0c2877248144bee24c77003c69ea3de2\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\e91163ec30e20f36bf9d029b00456e12\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\e91163ec30e20f36bf9d029b00456e12\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\9866630e12f4d56a500f1c7e4a5bac8d\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\9866630e12f4d56a500f1c7e4a5bac8d\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\6d494dc9a71dcb0e7481a23a1e532c06\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\6d494dc9a71dcb0e7481a23a1e532c06\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\2932a2284aa3e3feac3258b6c64e0d84\transition-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\2932a2284aa3e3feac3258b6c64e0d84\transition-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\3acce5c6fb8d1ca2d653f3467d68443b\navigation-common-2.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\3acce5c6fb8d1ca2d653f3467d68443b\navigation-common-2.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\8c17da089cfa75fedd43d8f9948d1041\core-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\8c17da089cfa75fedd43d8f9948d1041\core-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\f62662b0ce2fabcd939ec3f52e6fba0f\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\f62662b0ce2fabcd939ec3f52e6fba0f\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\d1ef1cb9a34309a52512947e7f12ac09\jetified-lifecycle-service-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\d1ef1cb9a34309a52512947e7f12ac09\jetified-lifecycle-service-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\d5abd10ad3e499c61d9ef8fbbdf4ab4b\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\d5abd10ad3e499c61d9ef8fbbdf4ab4b\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\c078272352087454a317bc1e955d1572\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\c078272352087454a317bc1e955d1572\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\b4e3d532469a36b1dec8884bcd610572\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\b4e3d532469a36b1dec8884bcd610572\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\55e2763ef3ca7294c3f4e2ec76e1e4ca\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\55e2763ef3ca7294c3f4e2ec76e1e4ca\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\1744b300cff6cbc7f683293f3a5b328e\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\1744b300cff6cbc7f683293f3a5b328e\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\1a1fb20f291193927db8f525687dbca9\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\1a1fb20f291193927db8f525687dbca9\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\dc6ecf7e6c8cb018bcbde83d58bc2864\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\dc6ecf7e6c8cb018bcbde83d58bc2864\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\d8ee733d5b7f1dc310ba2874ab175b64\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\d8ee733d5b7f1dc310ba2874ab175b64\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\4abd6ae74d5fdf3c5c0230ef29810492\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\4abd6ae74d5fdf3c5c0230ef29810492\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\81cd9d62923d80a124984255f57937fd\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\81cd9d62923d80a124984255f57937fd\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\ed03b7c042ce26deb9e53e66b70deeee\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\ed03b7c042ce26deb9e53e66b70deeee\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\f12b57af9a1c346ef79190f9d4fb0b3e\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\f12b57af9a1c346ef79190f9d4fb0b3e\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.play:core:1.7.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\8aee49ea9af652245993b2fee1da7d2e\jetified-core-1.7.2\AndroidManifest.xml:4:3-70
+MERGED from [com.google.android.play:core:1.7.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\8aee49ea9af652245993b2fee1da7d2e\jetified-core-1.7.2\AndroidManifest.xml:4:3-70
+INJECTED from G:\20 env\YNABtask\app\src\main\AndroidManifest.xml
+INJECTED from G:\20 env\YNABtask\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from G:\20 env\YNABtask\app\src\main\AndroidManifest.xml
+		ADDED from G:\20 env\YNABtask\app\src\main\AndroidManifest.xml
+		INJECTED from G:\20 env\YNABtask\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from G:\20 env\YNABtask\app\src\main\AndroidManifest.xml
+		ADDED from G:\20 env\YNABtask\app\src\main\AndroidManifest.xml
+		INJECTED from G:\20 env\YNABtask\app\src\main\AndroidManifest.xml
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\f62662b0ce2fabcd939ec3f52e6fba0f\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\f62662b0ce2fabcd939ec3f52e6fba0f\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\f62662b0ce2fabcd939ec3f52e6fba0f\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\f62662b0ce2fabcd939ec3f52e6fba0f\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\f62662b0ce2fabcd939ec3f52e6fba0f\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [com.google.android.play:core:1.7.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\8aee49ea9af652245993b2fee1da7d2e\jetified-core-1.7.2\AndroidManifest.xml:8:3-74
+	android:name
+		ADDED from [com.google.android.play:core:1.7.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\8aee49ea9af652245993b2fee1da7d2e\jetified-core-1.7.2\AndroidManifest.xml:8:20-72
+activity#com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity
+ADDED from [com.google.android.play:core:1.7.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\8aee49ea9af652245993b2fee1da7d2e\jetified-core-1.7.2\AndroidManifest.xml:12:5-271
+	android:process
+		ADDED from [com.google.android.play:core:1.7.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\8aee49ea9af652245993b2fee1da7d2e\jetified-core-1.7.2\AndroidManifest.xml:12:152-203
+	android:enabled
+		ADDED from [com.google.android.play:core:1.7.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\8aee49ea9af652245993b2fee1da7d2e\jetified-core-1.7.2\AndroidManifest.xml:12:103-126
+	android:stateNotNeeded
+		ADDED from [com.google.android.play:core:1.7.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\8aee49ea9af652245993b2fee1da7d2e\jetified-core-1.7.2\AndroidManifest.xml:12:240-269
+	android:launchMode
+		ADDED from [com.google.android.play:core:1.7.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\8aee49ea9af652245993b2fee1da7d2e\jetified-core-1.7.2\AndroidManifest.xml:12:204-239
+	android:exported
+		ADDED from [com.google.android.play:core:1.7.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\8aee49ea9af652245993b2fee1da7d2e\jetified-core-1.7.2\AndroidManifest.xml:12:127-151
+	android:name
+		ADDED from [com.google.android.play:core:1.7.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\8aee49ea9af652245993b2fee1da7d2e\jetified-core-1.7.2\AndroidManifest.xml:12:15-102
+activity#com.google.android.play.core.common.PlayCoreDialogWrapperActivity
+ADDED from [com.google.android.play:core:1.7.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\8aee49ea9af652245993b2fee1da7d2e\jetified-core-1.7.2\AndroidManifest.xml:13:5-226
+	android:enabled
+		ADDED from [com.google.android.play:core:1.7.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\8aee49ea9af652245993b2fee1da7d2e\jetified-core-1.7.2\AndroidManifest.xml:13:96-119
+	android:stateNotNeeded
+		ADDED from [com.google.android.play:core:1.7.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\8aee49ea9af652245993b2fee1da7d2e\jetified-core-1.7.2\AndroidManifest.xml:13:145-174
+	android:exported
+		ADDED from [com.google.android.play:core:1.7.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\8aee49ea9af652245993b2fee1da7d2e\jetified-core-1.7.2\AndroidManifest.xml:13:120-144
+	android:theme
+		ADDED from [com.google.android.play:core:1.7.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\8aee49ea9af652245993b2fee1da7d2e\jetified-core-1.7.2\AndroidManifest.xml:13:175-224
+	android:name
+		ADDED from [com.google.android.play:core:1.7.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\8aee49ea9af652245993b2fee1da7d2e\jetified-core-1.7.2\AndroidManifest.xml:13:15-95
+service#com.google.android.play.core.assetpacks.AssetPackExtractionService
+ADDED from [com.google.android.play:core:1.7.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\8aee49ea9af652245993b2fee1da7d2e\jetified-core-1.7.2\AndroidManifest.xml:16:5-145
+	android:enabled
+		ADDED from [com.google.android.play:core:1.7.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\8aee49ea9af652245993b2fee1da7d2e\jetified-core-1.7.2\AndroidManifest.xml:16:96-119
+	android:exported
+		ADDED from [com.google.android.play:core:1.7.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\8aee49ea9af652245993b2fee1da7d2e\jetified-core-1.7.2\AndroidManifest.xml:16:120-143
+	android:name
+		ADDED from [com.google.android.play:core:1.7.2] C:\Users\Sotra\.gradle\caches\transforms-2\files-2.1\8aee49ea9af652245993b2fee1da7d2e\jetified-core-1.7.2\AndroidManifest.xml:16:14-95

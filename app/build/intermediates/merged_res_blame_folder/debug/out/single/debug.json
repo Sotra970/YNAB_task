@@ -1,0 +1,146 @@
+[
+    {
+        "merged": "G:\\20 env\\YNABtask\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "G:\\20 env\\YNABtask\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "G:\\20 env\\YNABtask\\app\\build\\intermediates\\res\\merged\\debug\\drawable_baseline_add_black_24dp.xml.flat",
+        "source": "G:\\20 env\\YNABtask\\app\\src\\main\\res\\drawable\\baseline_add_black_24dp.xml"
+    },
+    {
+        "merged": "G:\\20 env\\YNABtask\\app\\build\\intermediates\\res\\merged\\debug\\layout_transaction_item.xml.flat",
+        "source": "G:\\20 env\\YNABtask\\app\\src\\main\\res\\layout\\transaction_item.xml"
+    },
+    {
+        "merged": "G:\\20 env\\YNABtask\\app\\build\\intermediates\\res\\merged\\debug\\layout_simple_spinner_item.xml.flat",
+        "source": "G:\\20 env\\YNABtask\\app\\src\\main\\res\\layout\\simple_spinner_item.xml"
+    },
+    {
+        "merged": "G:\\20 env\\YNABtask\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "G:\\20 env\\YNABtask\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "G:\\20 env\\YNABtask\\app\\build\\intermediates\\res\\merged\\debug\\layout_account_dialog.xml.flat",
+        "source": "G:\\20 env\\YNABtask\\app\\src\\main\\res\\layout\\account_dialog.xml"
+    },
+    {
+        "merged": "G:\\20 env\\YNABtask\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "G:\\20 env\\YNABtask\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "G:\\20 env\\YNABtask\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "G:\\20 env\\YNABtask\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "G:\\20 env\\YNABtask\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "G:\\20 env\\YNABtask\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "G:\\20 env\\YNABtask\\app\\build\\intermediates\\res\\merged\\debug\\navigation_nav_graph.xml.flat",
+        "source": "G:\\20 env\\YNABtask\\app\\src\\main\\res\\navigation\\nav_graph.xml"
+    },
+    {
+        "merged": "G:\\20 env\\YNABtask\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "G:\\20 env\\YNABtask\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "G:\\20 env\\YNABtask\\app\\build\\intermediates\\res\\merged\\debug\\layout_account_fragment.xml.flat",
+        "source": "G:\\20 env\\YNABtask\\app\\src\\main\\res\\layout\\account_fragment.xml"
+    },
+    {
+        "merged": "G:\\20 env\\YNABtask\\app\\build\\intermediates\\res\\merged\\debug\\layout_amount_dialog.xml.flat",
+        "source": "G:\\20 env\\YNABtask\\app\\src\\main\\res\\layout\\amount_dialog.xml"
+    },
+    {
+        "merged": "G:\\20 env\\YNABtask\\app\\build\\intermediates\\res\\merged\\debug\\drawable_baseline_add_circle_outline_black_24dp.xml.flat",
+        "source": "G:\\20 env\\YNABtask\\app\\src\\main\\res\\drawable\\baseline_add_circle_outline_black_24dp.xml"
+    },
+    {
+        "merged": "G:\\20 env\\YNABtask\\app\\build\\intermediates\\res\\merged\\debug\\drawable_baseline_account_balance_black_24dp.xml.flat",
+        "source": "G:\\20 env\\YNABtask\\app\\src\\main\\res\\drawable\\baseline_account_balance_black_24dp.xml"
+    },
+    {
+        "merged": "G:\\20 env\\YNABtask\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "G:\\20 env\\YNABtask\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "G:\\20 env\\YNABtask\\app\\build\\intermediates\\res\\merged\\debug\\layout_account_item.xml.flat",
+        "source": "G:\\20 env\\YNABtask\\app\\src\\main\\res\\layout\\account_item.xml"
+    },
+    {
+        "merged": "G:\\20 env\\YNABtask\\app\\build\\intermediates\\res\\merged\\debug\\layout_ransaction_fragment.xml.flat",
+        "source": "G:\\20 env\\YNABtask\\app\\src\\main\\res\\layout\\ransaction_fragment.xml"
+    },
+    {
+        "merged": "G:\\20 env\\YNABtask\\app\\build\\intermediates\\res\\merged\\debug\\drawable_baseline_remove_red_eye_black_24dp.xml.flat",
+        "source": "G:\\20 env\\YNABtask\\app\\src\\main\\res\\drawable\\baseline_remove_red_eye_black_24dp.xml"
+    },
+    {
+        "merged": "G:\\20 env\\YNABtask\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "G:\\20 env\\YNABtask\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "G:\\20 env\\YNABtask\\app\\build\\intermediates\\res\\merged\\debug\\layout_budget_item.xml.flat",
+        "source": "G:\\20 env\\YNABtask\\app\\src\\main\\res\\layout\\budget_item.xml"
+    },
+    {
+        "merged": "G:\\20 env\\YNABtask\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_generic_dialog.xml.flat",
+        "source": "G:\\20 env\\YNABtask\\app\\src\\main\\res\\layout\\fragment_generic_dialog.xml"
+    },
+    {
+        "merged": "G:\\20 env\\YNABtask\\app\\build\\intermediates\\res\\merged\\debug\\drawable_baseline_supervisor_account_black_24dp.xml.flat",
+        "source": "G:\\20 env\\YNABtask\\app\\src\\main\\res\\drawable\\baseline_supervisor_account_black_24dp.xml"
+    },
+    {
+        "merged": "G:\\20 env\\YNABtask\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "G:\\20 env\\YNABtask\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "G:\\20 env\\YNABtask\\app\\build\\intermediates\\res\\merged\\debug\\layout_empty_layout.xml.flat",
+        "source": "G:\\20 env\\YNABtask\\app\\src\\main\\res\\layout\\empty_layout.xml"
+    },
+    {
+        "merged": "G:\\20 env\\YNABtask\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "G:\\20 env\\YNABtask\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "G:\\20 env\\YNABtask\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "G:\\20 env\\YNABtask\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "G:\\20 env\\YNABtask\\app\\build\\intermediates\\res\\merged\\debug\\layout_loading_layout.xml.flat",
+        "source": "G:\\20 env\\YNABtask\\app\\src\\main\\res\\layout\\loading_layout.xml"
+    },
+    {
+        "merged": "G:\\20 env\\YNABtask\\app\\build\\intermediates\\res\\merged\\debug\\drawable_baseline_not_interested_black_24dp.xml.flat",
+        "source": "G:\\20 env\\YNABtask\\app\\src\\main\\res\\drawable\\baseline_not_interested_black_24dp.xml"
+    },
+    {
+        "merged": "G:\\20 env\\YNABtask\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "G:\\20 env\\YNABtask\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "G:\\20 env\\YNABtask\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "G:\\20 env\\YNABtask\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "G:\\20 env\\YNABtask\\app\\build\\intermediates\\res\\merged\\debug\\drawable_baseline_replay_black_24dp.xml.flat",
+        "source": "G:\\20 env\\YNABtask\\app\\src\\main\\res\\drawable\\baseline_replay_black_24dp.xml"
+    },
+    {
+        "merged": "G:\\20 env\\YNABtask\\app\\build\\intermediates\\res\\merged\\debug\\layout_no_internet_layout.xml.flat",
+        "source": "G:\\20 env\\YNABtask\\app\\src\\main\\res\\layout\\no_internet_layout.xml"
+    },
+    {
+        "merged": "G:\\20 env\\YNABtask\\app\\build\\intermediates\\res\\merged\\debug\\layout_budget_fragment.xml.flat",
+        "source": "G:\\20 env\\YNABtask\\app\\src\\main\\res\\layout\\budget_fragment.xml"
+    },
+    {
+        "merged": "G:\\20 env\\YNABtask\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "G:\\20 env\\YNABtask\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "G:\\20 env\\YNABtask\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "G:\\20 env\\YNABtask\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    }
+]

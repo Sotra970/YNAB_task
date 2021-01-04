@@ -1,0 +1,124 @@
+sotra/ynab/databinding/LoadingLayoutBindingImpl.java
+ sotra.ynab.databinding.LoadingLayoutBindingImpl
+sotra/io/digistask/util/ViewModelFactory_Factory.java
+ sotra.io.digistask.util.ViewModelFactory_Factory
+androidx/databinding/DataBinderMapperImpl.java
+ androidx.databinding.DataBinderMapperImpl
+sotra/ynab/DataBinderMapperImpl.java
+ sotra.ynab.DataBinderMapperImpl
+ sotra.ynab.DataBinderMapperImpl$InnerBrLookup
+ sotra.ynab.DataBinderMapperImpl$InnerLayoutIdLookup
+sotra/ynab/databinding/BudgetItemBinding.java
+ sotra.ynab.databinding.BudgetItemBinding
+androidx/databinding/library/baseAdapters/BR.java
+ androidx.databinding.library.baseAdapters.BR
+sotra/ynab/databinding/BudgetItemBindingImpl.java
+ sotra.ynab.databinding.BudgetItemBindingImpl
+sotra/ynab/databinding/SimpleSpinnerItemBinding.java
+ sotra.ynab.databinding.SimpleSpinnerItemBinding
+sotra/ynab/databinding/TransactionItemBinding.java
+ sotra.ynab.databinding.TransactionItemBinding
+sotra/ynab/BuildConfig.java
+ sotra.ynab.BuildConfig
+sotra/ynab/databinding/FragmentGenericDialogBinding.java
+ sotra.ynab.databinding.FragmentGenericDialogBinding
+sotra/ynab/databinding/EmptyLayoutBinding.java
+ sotra.ynab.databinding.EmptyLayoutBinding
+sotra/ynab/BR.java
+ sotra.ynab.BR
+sotra/ynab/databinding/AccountItemBindingImpl.java
+ sotra.ynab.databinding.AccountItemBindingImpl
+sotra/ynab/di/modules/MainActivityModule_ContributeMainActivity.java
+ sotra.ynab.di.modules.MainActivityModule_ContributeMainActivity
+ sotra.ynab.di.modules.MainActivityModule_ContributeMainActivity$MainActivitySubcomponent
+ sotra.ynab.di.modules.MainActivityModule_ContributeMainActivity$MainActivitySubcomponent$Builder
+sotra/ynab/databinding/AmountDialogBinding.java
+ sotra.ynab.databinding.AmountDialogBinding
+sotra/ynab/databinding/BudgetFragmentBinding.java
+ sotra.ynab.databinding.BudgetFragmentBinding
+sotra/ynab/databinding/TransactionFragmentBinding.java
+ sotra.ynab.databinding.TransactionFragmentBinding
+sotra/ynab/di/modules/FragmentBuildersModule_ContributeAccountFragment.java
+ sotra.ynab.di.modules.FragmentBuildersModule_ContributeAccountFragment
+ sotra.ynab.di.modules.FragmentBuildersModule_ContributeAccountFragment$AccountFragmentSubcomponent
+ sotra.ynab.di.modules.FragmentBuildersModule_ContributeAccountFragment$AccountFragmentSubcomponent$Builder
+sotra/ynab/MainActivity_MembersInjector.java
+ sotra.ynab.MainActivity_MembersInjector
+sotra/ynab/generated/callback/OnClickListener.java
+ sotra.ynab.generated.callback.OnClickListener
+ sotra.ynab.generated.callback.OnClickListener$Listener
+sotra/ynab/di/modules/FragmentBuildersModule_ContributeBudgetFragment.java
+ sotra.ynab.di.modules.FragmentBuildersModule_ContributeBudgetFragment
+ sotra.ynab.di.modules.FragmentBuildersModule_ContributeBudgetFragment$BudgetFragmentSubcomponent
+ sotra.ynab.di.modules.FragmentBuildersModule_ContributeBudgetFragment$BudgetFragmentSubcomponent$Builder
+sotra/ynab/databinding/AccountFragmentBindingImpl.java
+ sotra.ynab.databinding.AccountFragmentBindingImpl
+sotra/ynab/databinding/AccountDialogBinding.java
+ sotra.ynab.databinding.AccountDialogBinding
+sotra/ynab/databinding/EmptyLayoutBindingImpl.java
+ sotra.ynab.databinding.EmptyLayoutBindingImpl
+sotra/ynab/ui/budgetFragment/BudgetFragment_MembersInjector.java
+ sotra.ynab.ui.budgetFragment.BudgetFragment_MembersInjector
+sotra/i/chachingdemo/di/DaggerAppComponent.java
+ sotra.i.chachingdemo.di.DaggerAppComponent
+ sotra.i.chachingdemo.di.DaggerAppComponent$1
+ sotra.i.chachingdemo.di.DaggerAppComponent$Builder
+ sotra.i.chachingdemo.di.DaggerAppComponent$MainActivitySubcomponentBuilder
+ sotra.i.chachingdemo.di.DaggerAppComponent$MainActivitySubcomponentImpl
+ sotra.i.chachingdemo.di.DaggerAppComponent$MainActivitySubcomponentImpl$1
+ sotra.i.chachingdemo.di.DaggerAppComponent$MainActivitySubcomponentImpl$2
+ sotra.i.chachingdemo.di.DaggerAppComponent$MainActivitySubcomponentImpl$3
+ sotra.i.chachingdemo.di.DaggerAppComponent$MainActivitySubcomponentImpl$AccountFragmentSubcomponentBuilder
+ sotra.i.chachingdemo.di.DaggerAppComponent$MainActivitySubcomponentImpl$AccountFragmentSubcomponentImpl
+ sotra.i.chachingdemo.di.DaggerAppComponent$MainActivitySubcomponentImpl$BudgetFragmentSubcomponentBuilder
+ sotra.i.chachingdemo.di.DaggerAppComponent$MainActivitySubcomponentImpl$BudgetFragmentSubcomponentImpl
+ sotra.i.chachingdemo.di.DaggerAppComponent$MainActivitySubcomponentImpl$TransactionsFragmentSubcomponentBuilder
+ sotra.i.chachingdemo.di.DaggerAppComponent$MainActivitySubcomponentImpl$TransactionsFragmentSubcomponentImpl
+sotra/ynab/ApplicationC_MembersInjector.java
+ sotra.ynab.ApplicationC_MembersInjector
+sotra/ynab/databinding/AccountFragmentBinding.java
+ sotra.ynab.databinding.AccountFragmentBinding
+sotra/ynab/ui/accountsFragment/AccountFragment_MembersInjector.java
+ sotra.ynab.ui.accountsFragment.AccountFragment_MembersInjector
+sotra/ynab/util/dialog/Decorator/DividerItemDecoration.java
+ sotra.ynab.util.dialog.Decorator.DividerItemDecoration
+sotra/ynab/databinding/ActivityMainBinding.java
+ sotra.ynab.databinding.ActivityMainBinding
+sotra/ynab/databinding/TransactionItemBindingImpl.java
+ sotra.ynab.databinding.TransactionItemBindingImpl
+sotra/ynab/databinding/AccountItemBinding.java
+ sotra.ynab.databinding.AccountItemBinding
+sotra/ynab/databinding/TransactionFragmentBindingImpl.java
+ sotra.ynab.databinding.TransactionFragmentBindingImpl
+sotra/ynab/util/dialog/GenricDialogArrayAdapter.java
+ sotra.ynab.util.dialog.GenricDialogArrayAdapter
+ sotra.ynab.util.dialog.GenricDialogArrayAdapter$1
+ sotra.ynab.util.dialog.GenricDialogArrayAdapter$ViewHolder
+sotra/ynab/databinding/BudgetFragmentBindingImpl.java
+ sotra.ynab.databinding.BudgetFragmentBindingImpl
+sotra/ynab/di/modules/AppModule_ProvideApiServiceFactory.java
+ sotra.ynab.di.modules.AppModule_ProvideApiServiceFactory
+sotra/ynab/repo/NetworkRepo_Factory.java
+ sotra.ynab.repo.NetworkRepo_Factory
+sotra/ynab/ui/accountsFragment/AccountViewModel_Factory.java
+ sotra.ynab.ui.accountsFragment.AccountViewModel_Factory
+sotra/ynab/ui/transactions/TransactionsViewModel_Factory.java
+ sotra.ynab.ui.transactions.TransactionsViewModel_Factory
+sotra/ynab/ui/transactions/TransactionsFragment_MembersInjector.java
+ sotra.ynab.ui.transactions.TransactionsFragment_MembersInjector
+sotra/ynab/DataBindingTriggerClass.java
+ sotra.ynab.DataBindingTriggerClass
+sotra/ynab/databinding/LoadingLayoutBinding.java
+ sotra.ynab.databinding.LoadingLayoutBinding
+sotra/ynab/databinding/NoInternetLayoutBindingImpl.java
+ sotra.ynab.databinding.NoInternetLayoutBindingImpl
+sotra/ynab/ui/budgetFragment/BudgetViewModel_Factory.java
+ sotra.ynab.ui.budgetFragment.BudgetViewModel_Factory
+androidx/databinding/DataBindingComponent.java
+ androidx.databinding.DataBindingComponent
+sotra/ynab/databinding/NoInternetLayoutBinding.java
+ sotra.ynab.databinding.NoInternetLayoutBinding
+sotra/ynab/di/modules/FragmentBuildersModule_ContributeTransactionsFragment.java
+ sotra.ynab.di.modules.FragmentBuildersModule_ContributeTransactionsFragment
+ sotra.ynab.di.modules.FragmentBuildersModule_ContributeTransactionsFragment$TransactionsFragmentSubcomponent
+ sotra.ynab.di.modules.FragmentBuildersModule_ContributeTransactionsFragment$TransactionsFragmentSubcomponent$Builder

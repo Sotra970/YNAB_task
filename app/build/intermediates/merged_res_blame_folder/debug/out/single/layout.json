@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "G:\\20 env\\YNABtask\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\budget_item.xml",
+        "source": "G:\\20 env\\YNABtask\\app\\src\\main\\res\\layout\\budget_item.xml"
+    },
+    {
+        "merged": "G:\\20 env\\YNABtask\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\loading_layout.xml",
+        "source": "G:\\20 env\\YNABtask\\app\\src\\main\\res\\layout\\loading_layout.xml"
+    },
+    {
+        "merged": "G:\\20 env\\YNABtask\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\simple_spinner_item.xml",
+        "source": "G:\\20 env\\YNABtask\\app\\src\\main\\res\\layout\\simple_spinner_item.xml"
+    },
+    {
+        "merged": "G:\\20 env\\YNABtask\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\no_internet_layout.xml",
+        "source": "G:\\20 env\\YNABtask\\app\\src\\main\\res\\layout\\no_internet_layout.xml"
+    },
+    {
+        "merged": "G:\\20 env\\YNABtask\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\account_item.xml",
+        "source": "G:\\20 env\\YNABtask\\app\\src\\main\\res\\layout\\account_item.xml"
+    },
+    {
+        "merged": "G:\\20 env\\YNABtask\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\budget_fragment.xml",
+        "source": "G:\\20 env\\YNABtask\\app\\src\\main\\res\\layout\\budget_fragment.xml"
+    },
+    {
+        "merged": "G:\\20 env\\YNABtask\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "G:\\20 env\\YNABtask\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "G:\\20 env\\YNABtask\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_generic_dialog.xml",
+        "source": "G:\\20 env\\YNABtask\\app\\src\\main\\res\\layout\\fragment_generic_dialog.xml"
+    },
+    {
+        "merged": "G:\\20 env\\YNABtask\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\transaction_item.xml",
+        "source": "G:\\20 env\\YNABtask\\app\\src\\main\\res\\layout\\transaction_item.xml"
+    },
+    {
+        "merged": "G:\\20 env\\YNABtask\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\ransaction_fragment.xml",
+        "source": "G:\\20 env\\YNABtask\\app\\src\\main\\res\\layout\\ransaction_fragment.xml"
+    },
+    {
+        "merged": "G:\\20 env\\YNABtask\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\amount_dialog.xml",
+        "source": "G:\\20 env\\YNABtask\\app\\src\\main\\res\\layout\\amount_dialog.xml"
+    },
+    {
+        "merged": "G:\\20 env\\YNABtask\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\account_fragment.xml",
+        "source": "G:\\20 env\\YNABtask\\app\\src\\main\\res\\layout\\account_fragment.xml"
+    },
+    {
+        "merged": "G:\\20 env\\YNABtask\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\empty_layout.xml",
+        "source": "G:\\20 env\\YNABtask\\app\\src\\main\\res\\layout\\empty_layout.xml"
+    },
+    {
+        "merged": "G:\\20 env\\YNABtask\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\account_dialog.xml",
+        "source": "G:\\20 env\\YNABtask\\app\\src\\main\\res\\layout\\account_dialog.xml"
+    }
+]
