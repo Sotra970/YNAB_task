@@ -6,7 +6,6 @@
         name="adapter"
         type="sotra.ynab.ui.budgetFragment.BudgetAdapter" />
     <import type="android.view.View"/>
-    <import type="sotra.ynab.ui.budgetFragment.BudgetFragment"/>
     <variable
         name="viewModel"
         type="sotra.ynab.ui.budgetFragment.BudgetViewModel" />

@@ -36,20 +36,20 @@
         "source": "G:\\20 env\\YNABtask\\app\\src\\main\\res\\layout\\transaction_item.xml"
     },
     {
-        "merged": "G:\\20 env\\YNABtask\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\ransaction_fragment.xml",
-        "source": "G:\\20 env\\YNABtask\\app\\src\\main\\res\\layout\\ransaction_fragment.xml"
-    },
-    {
         "merged": "G:\\20 env\\YNABtask\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\amount_dialog.xml",
         "source": "G:\\20 env\\YNABtask\\app\\src\\main\\res\\layout\\amount_dialog.xml"
     },
     {
-        "merged": "G:\\20 env\\YNABtask\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\account_fragment.xml",
-        "source": "G:\\20 env\\YNABtask\\app\\src\\main\\res\\layout\\account_fragment.xml"
+        "merged": "G:\\20 env\\YNABtask\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\ransaction_fragment.xml",
+        "source": "G:\\20 env\\YNABtask\\app\\src\\main\\res\\layout\\ransaction_fragment.xml"
     },
     {
         "merged": "G:\\20 env\\YNABtask\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\empty_layout.xml",
         "source": "G:\\20 env\\YNABtask\\app\\src\\main\\res\\layout\\empty_layout.xml"
+    },
+    {
+        "merged": "G:\\20 env\\YNABtask\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\account_fragment.xml",
+        "source": "G:\\20 env\\YNABtask\\app\\src\\main\\res\\layout\\account_fragment.xml"
     },
     {
         "merged": "G:\\20 env\\YNABtask\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\account_dialog.xml",

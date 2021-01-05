@@ -166,16 +166,17 @@ public class DataBinderMapperImpl extends DataBinderMapper {
   }
 
   private static class InnerBrLookup {
-    static final SparseArray<String> sKeys = new SparseArray<String>(7);
+    static final SparseArray<String> sKeys = new SparseArray<String>(8);
 
     static {
       sKeys.put(0, "_all");
       sKeys.put(1, "adapter");
       sKeys.put(2, "callback");
-      sKeys.put(3, "item");
-      sKeys.put(4, "noInternetRetryCallback");
-      sKeys.put(5, "retryCallback");
-      sKeys.put(6, "viewModel");
+      sKeys.put(3, "currency");
+      sKeys.put(4, "item");
+      sKeys.put(5, "noInternetRetryCallback");
+      sKeys.put(6, "retryCallback");
+      sKeys.put(7, "viewModel");
     }
   }
 

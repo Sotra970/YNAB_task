@@ -20,6 +20,7 @@ import sotra.ynab.ui.budgetFragment.PayeeDialog
 import sotra.ynab.util.RetryCallback
 import sotra.ynab.util.autoCleared
 import sotra.ynab.util.dialog.GenericDialogFragment
+import timber.log.Timber
 import javax.inject.Inject
 
 class AccountFragment : Fragment()  , Injectable , AccountListItemCallback  {
@@ -42,6 +43,7 @@ class AccountFragment : Fragment()  , Injectable , AccountListItemCallback  {
     private fun getEmptyRetryCallback(): RetryCallback? {
         return  object :RetryCallback(){
             override fun callRetry() {
+
             }
         }
     }
@@ -75,29 +77,56 @@ class AccountFragment : Fragment()  , Injectable , AccountListItemCallback  {
     private fun startObserving() {
         viewModel.budget.observe(viewLifecycleOwner , Observer {
             adapter.add(it.accounts)
+            adapter.setCurrency(it.currency_format)
         })
     }
 
 
     // sorry about hard code :'D  , but i was have no time to build this use case !!
-    override fun addTransaction(item: Account) {
+    override fun addTransaction(account: Account) {
         // get ammount from user
+        showAcmountDialog(account)
+    }
+
+    private fun showAcmountDialog(account: Account) {
         AmountDialog.getInstance(object : AmountDialog.Callback{
             override fun deliverValue(amount: Int) {
                 // get payees to be selected
-                viewModel.getPayees{
+                viewModel.getPayees{ payeeList ->
+                    // hide manual , reconc  , same
+                    val filtered = payeeList.filter {
+                        payee -> payee.name.trim() != "Transfer: "+account.name.trim()
+                            && !payee.name.contains("Reconciliation Balance Adjustment")
+                            && !payee.name.contains("Manual Balance Adjustment")
+                    }
                     // show payee dialog
-                    PayeeDialog(it, object : GenericDialogFragment.GenricDialogFragmentClickListener<Payee> {
-                        override fun onGenericDialogItemClicked(child: Payee) {
-                            //add transaction
-                            viewModel.addTransaction(account = item , payee = child , amount = amount , deliverTransaction = {
-                                Toast.makeText(context , R.string.transaction_created , Toast.LENGTH_LONG).show()
-                            })
-                        }
-                    }).show(parentFragmentManager , "show_payees_list")
+                    showPayeeDialog(filtered , account , amount)
                 }
             }
         }).show(parentFragmentManager , "amount_dialog")
+    }
+
+    private fun showPayeeDialog(filtered : List<Payee>, account: Account, amount:Int  ) {
+        PayeeDialog(filtered, object : GenericDialogFragment.GenricDialogFragmentClickListener<Payee> {
+            override fun onGenericDialogItemClicked(child: Payee) {
+               addTransactionCall(account , amount , child)
+            }
+
+        }).show(parentFragmentManager , "show_payees_list")
+    }
+
+    private fun addTransactionCall(account: Account , amount:Int , payee: Payee) {
+        //add transaction
+        val retryCallback = object : RetryCallback() {
+            override fun callRetry() {
+                viewModel.addTransaction(account = account , payee = payee , amount = amount , deliverTransaction = {
+                    Toast.makeText(context , R.string.transaction_created , Toast.LENGTH_LONG).show()
+                    binding.retryCallback =getEmptyRetryCallback()
+                })
+            }
+        }
+        binding.retryCallback = retryCallback
+        retryCallback.callRetry()
     }
 
 

@@ -19,8 +19,6 @@ import sotra.io.digistask.util.ViewModelFactory;
 import sotra.io.digistask.util.ViewModelFactory_Factory;
 import sotra.ynab.ApplicationC;
 import sotra.ynab.ApplicationC_MembersInjector;
-import sotra.ynab.MainActivity;
-import sotra.ynab.MainActivity_MembersInjector;
 import sotra.ynab.api.ApiService;
 import sotra.ynab.di.modules.AppModule;
 import sotra.ynab.di.modules.AppModule_ProvideApiServiceFactory;
@@ -30,6 +28,8 @@ import sotra.ynab.di.modules.FragmentBuildersModule_ContributeTransactionsFragme
 import sotra.ynab.di.modules.MainActivityModule_ContributeMainActivity;
 import sotra.ynab.repo.NetworkRepo;
 import sotra.ynab.repo.NetworkRepo_Factory;
+import sotra.ynab.ui.MainActivity;
+import sotra.ynab.ui.MainActivity_MembersInjector;
 import sotra.ynab.ui.accountsFragment.AccountFragment;
 import sotra.ynab.ui.accountsFragment.AccountFragment_MembersInjector;
 import sotra.ynab.ui.accountsFragment.AccountViewModel;

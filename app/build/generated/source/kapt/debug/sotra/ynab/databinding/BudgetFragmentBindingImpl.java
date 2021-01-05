@@ -129,9 +129,9 @@ public class BudgetFragmentBindingImpl extends BudgetFragmentBinding  {
             case 0 :
                 return onChangeLoading((sotra.ynab.databinding.LoadingLayoutBinding) object, fieldId);
             case 1 :
-                return onChangeViewModelLoading((androidx.lifecycle.MutableLiveData<java.lang.Boolean>) object, fieldId);
-            case 2 :
                 return onChangeNetwork((sotra.ynab.databinding.NoInternetLayoutBinding) object, fieldId);
+            case 2 :
+                return onChangeViewModelLoading((androidx.lifecycle.MutableLiveData<java.lang.Boolean>) object, fieldId);
             case 3 :
                 return onChangeViewModelNetworkStatus((androidx.lifecycle.MutableLiveData<java.lang.Boolean>) object, fieldId);
         }
@@ -146,7 +146,7 @@ public class BudgetFragmentBindingImpl extends BudgetFragmentBinding  {
         }
         return false;
     }
-    private boolean onChangeViewModelLoading(androidx.lifecycle.MutableLiveData<java.lang.Boolean> ViewModelLoading, int fieldId) {
+    private boolean onChangeNetwork(sotra.ynab.databinding.NoInternetLayoutBinding Network, int fieldId) {
         if (fieldId == BR._all) {
             synchronized(this) {
                     mDirtyFlags |= 0x2L;
@@ -155,7 +155,7 @@ public class BudgetFragmentBindingImpl extends BudgetFragmentBinding  {
         }
         return false;
     }
-    private boolean onChangeNetwork(sotra.ynab.databinding.NoInternetLayoutBinding Network, int fieldId) {
+    private boolean onChangeViewModelLoading(androidx.lifecycle.MutableLiveData<java.lang.Boolean> ViewModelLoading, int fieldId) {
         if (fieldId == BR._all) {
             synchronized(this) {
                     mDirtyFlags |= 0x4L;
@@ -193,16 +193,16 @@ public class BudgetFragmentBindingImpl extends BudgetFragmentBinding  {
         }
         if ((dirtyFlags & 0xa0L) != 0) {
         }
-        if ((dirtyFlags & 0xcaL) != 0) {
+        if ((dirtyFlags & 0xccL) != 0) {
 
 
-            if ((dirtyFlags & 0xc2L) != 0) {
+            if ((dirtyFlags & 0xc4L) != 0) {
 
                     if (viewModel != null) {
                         // read viewModel.loading
                         viewModelLoading = viewModel.getLoading();
                     }
-                    updateLiveDataRegistration(1, viewModelLoading);
+                    updateLiveDataRegistration(2, viewModelLoading);
 
 
                     if (viewModelLoading != null) {
@@ -231,7 +231,7 @@ public class BudgetFragmentBindingImpl extends BudgetFragmentBinding  {
 
             this.list.setAdapter(adapter);
         }
-        if ((dirtyFlags & 0xc2L) != 0) {
+        if ((dirtyFlags & 0xc4L) != 0) {
             // api target 1
 
             sotra.ynab.util.BindingAdapterUtils.setViewModelVisible(this.loading.getRoot(), viewModelLoading);
@@ -255,8 +255,8 @@ public class BudgetFragmentBindingImpl extends BudgetFragmentBinding  {
     private  long mDirtyFlags = 0xffffffffffffffffL;
     /* flag mapping
         flag 0 (0x1L): loading
-        flag 1 (0x2L): viewModel.loading
-        flag 2 (0x3L): network
+        flag 1 (0x2L): network
+        flag 2 (0x3L): viewModel.loading
         flag 3 (0x4L): viewModel.networkStatus
         flag 4 (0x5L): retryCallback
         flag 5 (0x6L): adapter

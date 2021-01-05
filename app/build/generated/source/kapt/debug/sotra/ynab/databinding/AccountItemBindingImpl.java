@@ -60,7 +60,7 @@ public class AccountItemBindingImpl extends AccountItemBinding implements sotra.
     @Override
     public void invalidateAll() {
         synchronized(this) {
-                mDirtyFlags = 0x4L;
+                mDirtyFlags = 0x8L;
         }
         requestRebind();
     }
@@ -84,6 +84,9 @@ public class AccountItemBindingImpl extends AccountItemBinding implements sotra.
         else if (BR.callback == variableId) {
             setCallback((sotra.ynab.ui.accountsFragment.AccountListItemCallback) variable);
         }
+        else if (BR.currency == variableId) {
+            setCurrency((sotra.ynab.data.budgets.CurrencyFormat) variable);
+        }
         else {
             variableSet = false;
         }
@@ -106,6 +109,14 @@ public class AccountItemBindingImpl extends AccountItemBinding implements sotra.
         notifyPropertyChanged(BR.callback);
         super.requestRebind();
     }
+    public void setCurrency(@Nullable sotra.ynab.data.budgets.CurrencyFormat Currency) {
+        this.mCurrency = Currency;
+        synchronized(this) {
+            mDirtyFlags |= 0x4L;
+        }
+        notifyPropertyChanged(BR.currency);
+        super.requestRebind();
+    }
 
     @Override
     protected boolean onFieldChange(int localFieldId, Object object, int fieldId) {
@@ -121,43 +132,86 @@ public class AccountItemBindingImpl extends AccountItemBinding implements sotra.
             dirtyFlags = mDirtyFlags;
             mDirtyFlags = 0;
         }
+        sotra.ynab.data.budgets.Account item = mItem;
+        boolean currencyJavaLangObjectNull = false;
+        java.lang.String integerToStringItemBalanceCurrencyJavaLangObjectNullJavaLangStringCurrencyCurrencySymbol = null;
         int itemBalance = 0;
         java.lang.String itemName = null;
         java.lang.String itemType = null;
-        sotra.ynab.data.budgets.Account item = mItem;
+        java.lang.String currencyJavaLangObjectNullJavaLangStringCurrencyCurrencySymbol = null;
+        java.lang.String currencyCurrencySymbol = null;
         java.lang.String integerToStringItemBalance = null;
         sotra.ynab.ui.accountsFragment.AccountListItemCallback callback = mCallback;
+        sotra.ynab.data.budgets.CurrencyFormat currency = mCurrency;
 
-        if ((dirtyFlags & 0x5L) != 0) {
+        if ((dirtyFlags & 0xdL) != 0) {
 
 
 
                 if (item != null) {
                     // read item.balance
                     itemBalance = item.getBalance();
-                    // read item.name
-                    itemName = item.getName();
-                    // read item.type
-                    itemType = item.getType();
                 }
+                // read currency == null
+                currencyJavaLangObjectNull = (currency) == (null);
+            if((dirtyFlags & 0xdL) != 0) {
+                if(currencyJavaLangObjectNull) {
+                        dirtyFlags |= 0x20L;
+                }
+                else {
+                        dirtyFlags |= 0x10L;
+                }
+            }
 
 
                 // read Integer.toString(item.balance)
                 integerToStringItemBalance = java.lang.Integer.toString(itemBalance);
+            if ((dirtyFlags & 0x9L) != 0) {
+
+                    if (item != null) {
+                        // read item.name
+                        itemName = item.getName();
+                        // read item.type
+                        itemType = item.getType();
+                    }
+            }
         }
         // batch finished
-        if ((dirtyFlags & 0x4L) != 0) {
+
+        if ((dirtyFlags & 0x10L) != 0) {
+
+                if (currency != null) {
+                    // read currency.currency_symbol
+                    currencyCurrencySymbol = currency.getCurrency_symbol();
+                }
+        }
+
+        if ((dirtyFlags & 0xdL) != 0) {
+
+                // read currency == null ? "" : currency.currency_symbol
+                currencyJavaLangObjectNullJavaLangStringCurrencyCurrencySymbol = ((currencyJavaLangObjectNull) ? ("") : (currencyCurrencySymbol));
+
+
+                // read (Integer.toString(item.balance)) + (currency == null ? "" : currency.currency_symbol)
+                integerToStringItemBalanceCurrencyJavaLangObjectNullJavaLangStringCurrencyCurrencySymbol = (integerToStringItemBalance) + (currencyJavaLangObjectNullJavaLangStringCurrencyCurrencySymbol);
+        }
+        // batch finished
+        if ((dirtyFlags & 0x8L) != 0) {
             // api target 1
 
             this.add.setOnClickListener(mCallback1);
         }
-        if ((dirtyFlags & 0x5L) != 0) {
+        if ((dirtyFlags & 0x9L) != 0) {
             // api target 1
 
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.mboundView1, itemName);
-            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.mboundView2, integerToStringItemBalance);
             androidx.databinding.adapters.TextViewBindingAdapter.setText(this.mboundView3, itemType);
             sotra.ynab.util.BindingAdapterUtils.setVisibility(this.mboundView4, itemType);
+        }
+        if ((dirtyFlags & 0xdL) != 0) {
+            // api target 1
+
+            androidx.databinding.adapters.TextViewBindingAdapter.setText(this.mboundView2, integerToStringItemBalanceCurrencyJavaLangObjectNullJavaLangStringCurrencyCurrencySymbol);
         }
     }
     // Listener Stub Implementations
@@ -186,7 +240,10 @@ public class AccountItemBindingImpl extends AccountItemBinding implements sotra.
     /* flag mapping
         flag 0 (0x1L): item
         flag 1 (0x2L): callback
-        flag 2 (0x3L): null
+        flag 2 (0x3L): currency
+        flag 3 (0x4L): null
+        flag 4 (0x5L): currency == null ? "" : currency.currency_symbol
+        flag 5 (0x6L): currency == null ? "" : currency.currency_symbol
     flag mapping end*/
     //end
 }

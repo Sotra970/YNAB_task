@@ -14,6 +14,7 @@ import java.lang.Deprecated;
 import java.lang.Object;
 import sotra.ynab.R;
 import sotra.ynab.data.budgets.Account;
+import sotra.ynab.data.budgets.CurrencyFormat;
 import sotra.ynab.ui.accountsFragment.AccountListItemCallback;
 
 public abstract class AccountItemBinding extends ViewDataBinding {
@@ -22,6 +23,9 @@ public abstract class AccountItemBinding extends ViewDataBinding {
 
   @Bindable
   protected Account mItem;
+
+  @Bindable
+  protected CurrencyFormat mCurrency;
 
   @Bindable
   protected AccountListItemCallback mCallback;
@@ -37,6 +41,13 @@ public abstract class AccountItemBinding extends ViewDataBinding {
   @Nullable
   public Account getItem() {
     return mItem;
+  }
+
+  public abstract void setCurrency(@Nullable CurrencyFormat currency);
+
+  @Nullable
+  public CurrencyFormat getCurrency() {
+    return mCurrency;
   }
 
   public abstract void setCallback(@Nullable AccountListItemCallback callback);

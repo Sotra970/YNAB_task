@@ -30,7 +30,7 @@ import javax.inject.Inject
                     payee_id = payee.id,
                     payee_name = payee.name,
                     amount = amount,
-                    memo = "todo",
+                    memo = "",
                     account_id = account_id ,
                     date = SimpleDateFormat("YYYY-MM-DD", Locale.getDefault()).format(Date())
             ))

@@ -19,7 +19,7 @@ package sotra.ynab.di.modules
 
 import dagger.Module
 import dagger.android.ContributesAndroidInjector
-import sotra.ynab.MainActivity
+import sotra.ynab.ui.MainActivity
 
 @Suppress("unused")
 @Module

@@ -4,9 +4,10 @@ package sotra.ynab.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.FrameLayout;
+import android.widget.LinearLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.widget.AppCompatTextView;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
 import java.lang.NullPointerException;
@@ -16,20 +17,24 @@ import sotra.ynab.R;
 
 public final class FragmentGenericDialogBinding implements ViewBinding {
   @NonNull
-  private final FrameLayout rootView;
+  private final LinearLayout rootView;
 
   @NonNull
   public final RecyclerView recycler;
 
-  private FragmentGenericDialogBinding(@NonNull FrameLayout rootView,
-      @NonNull RecyclerView recycler) {
+  @NonNull
+  public final AppCompatTextView title;
+
+  private FragmentGenericDialogBinding(@NonNull LinearLayout rootView,
+      @NonNull RecyclerView recycler, @NonNull AppCompatTextView title) {
     this.rootView = rootView;
     this.recycler = recycler;
+    this.title = title;
   }
 
   @Override
   @NonNull
-  public FrameLayout getRoot() {
+  public LinearLayout getRoot() {
     return rootView;
   }
 
@@ -60,7 +65,13 @@ public final class FragmentGenericDialogBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentGenericDialogBinding((FrameLayout) rootView, recycler);
+      id = R.id.title;
+      AppCompatTextView title = rootView.findViewById(id);
+      if (title == null) {
+        break missingId;
+      }
+
+      return new FragmentGenericDialogBinding((LinearLayout) rootView, recycler, title);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

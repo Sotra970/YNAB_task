@@ -39,6 +39,7 @@ abstract class GenericDialogFragment<T> : DialogFragment() {
         val dialog = Dialog(requireActivity())
         dialog.requestWindowFeature(STYLE_NO_TITLE)
         val v = LayoutInflater.from(activity).inflate(R.layout.fragment_generic_dialog, null, false)
+        v.findViewById<TextView>(R.id.title).setText(getDialogTitle())
         listView = v.findViewById(R.id.recycler);
         if (savedInstanceState != null)
             data = savedInstanceState.getSerializable("data") as ArrayList<T>?
@@ -85,4 +86,6 @@ abstract class GenericDialogFragment<T> : DialogFragment() {
     interface GenricDialogFragmentClickListener<T> {
         fun onGenericDialogItemClicked(child: T)
     }
+
+    abstract fun getDialogTitle(): Int
 }

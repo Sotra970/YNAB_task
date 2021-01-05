@@ -4,6 +4,9 @@
         <variable
             name="item"
             type="sotra.ynab.data.budgets.Account" />
+        <variable
+            name="currency"
+            type="sotra.ynab.data.budgets.CurrencyFormat" />
     <import type="android.view.View"/>
         <variable
             name="callback"
@@ -62,7 +65,7 @@
                 android:layout_marginStart="8dp"
                 android:textColor="@color/dark_text"
                 android:textSize="@dimen/mid_text"
-                android:text="@{Integer.toString(item.balance)}"
+                android:text='@{Integer.toString(item.balance) + (currency==null ? "": currency.currency_symbol) }'
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
         </LinearLayout>

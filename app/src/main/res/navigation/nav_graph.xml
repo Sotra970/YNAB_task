@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/budgetFragment"
         android:name="sotra.ynab.ui.budgetFragment.BudgetFragment"
-        android:label="budget_fragment"
+        android:label="@string/budgets_ist"
         tools:layout="@layout/budget_fragment" >
         <action
             android:id="@+id/action_nav_graph_to_accountFragment"
@@ -49,10 +49,11 @@
         tools:layout="@layout/account_fragment"
         android:id="@+id/accountFragment"
         android:name="sotra.ynab.ui.accountsFragment.AccountFragment"
-        android:label="AccountFragment" />
+        android:label="@string/account_List" />
     <fragment
         tools:layout="@layout/ransaction_fragment"
         android:id="@+id/transactionsFragment"
         android:name="sotra.ynab.ui.transactions.TransactionsFragment"
-        android:label="TransactionsFragment" />
+        android:label="@string/payee_transactionList"
+        />
 </navigation>

@@ -18,7 +18,6 @@ import sotra.ynab.databinding.BudgetFragmentBinding
 import sotra.ynab.util.RetryCallback
 import sotra.ynab.util.autoCleared
 import sotra.ynab.util.dialog.GenericDialogFragment
-import timber.log.Timber
 import javax.inject.Inject
 
 class BudgetFragment : Fragment()  , Injectable , BudgetListItemCallback  {
@@ -54,6 +53,10 @@ class BudgetFragment : Fragment()  , Injectable , BudgetListItemCallback  {
         binding.adapter = budgetAdapter
         binding.lifecycleOwner = this
         // add no internet connection retry call back to data binding
+       setDefaultRetryCallback()
+    }
+
+    private fun setDefaultRetryCallback() {
         binding.retryCallback = object  : RetryCallback() {
             override fun callRetry() {
                 viewModel.getBudget()
@@ -61,31 +64,45 @@ class BudgetFragment : Fragment()  , Injectable , BudgetListItemCallback  {
         }
     }
 
-
     override fun addAccount(item: Budget) {
-        AccountDialog.getInstance(object : AccountDialog.Callback{
+        CreateAccountDialog.getInstance(object : CreateAccountDialog.Callback{
             override fun deliverValue(name: String, accType: String, balance: Int) {
-                    viewModel.addAccount(item.id , name , accType , balance) {
-                        item.accounts.add(it)
-                        Toast.makeText(requireContext() , R.string.acc_created,Toast.LENGTH_LONG ).show()
+                val retryCallback = object  : RetryCallback() {
+                    override fun callRetry() {
+                        viewModel.addAccount(item.id , name , accType , balance) {
+                            item.accounts.add(it)
+                            Toast.makeText(requireContext() , R.string.acc_created,Toast.LENGTH_LONG ).show()
+                            setDefaultRetryCallback()
+                        }
                     }
+                }
+                binding.retryCallback = retryCallback
+                retryCallback.callRetry()
             }
         }).show(this.parentFragmentManager , "crate_account_dialog")
     }
 
+
     override fun payees(item: Budget) {
-        viewModel.getPayees(item) {
-            PayeeDialog(it, object :GenericDialogFragment.GenricDialogFragmentClickListener<Payee> {
-                override fun onGenericDialogItemClicked(child: Payee) {
-                    //  show transactions
-                    Navigation.findNavController(requireActivity(),R.id.nav_host_fragment).navigate(
-                            BudgetFragmentDirections.actionBudgetFragmentToTransactionsFragment2(
-                                    item.id , child.id
+        val retryCallback = object  : RetryCallback() {
+            override fun callRetry() {
+                viewModel.getPayees(item) {
+                    PayeeDialog(it, object :GenericDialogFragment.GenricDialogFragmentClickListener<Payee> {
+                        override fun onGenericDialogItemClicked(child: Payee) {
+                            //  show transactions
+                            Navigation.findNavController(requireActivity(),R.id.nav_host_fragment).navigate(
+                                    BudgetFragmentDirections.actionBudgetFragmentToTransactionsFragment2(
+                                            item.id , child.id
+                                    )
                             )
-                    )
+                            setDefaultRetryCallback()
+                        }
+                    }).show(this@BudgetFragment.parentFragmentManager , "show_payees_list")
                 }
-            }).show(this.parentFragmentManager , "show_payees_list")
+            }
         }
+        binding.retryCallback = retryCallback
+        retryCallback.callRetry()
     }
 
 

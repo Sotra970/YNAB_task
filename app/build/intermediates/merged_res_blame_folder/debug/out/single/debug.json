@@ -1,11 +1,11 @@
 [
     {
-        "merged": "G:\\20 env\\YNABtask\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
-        "source": "G:\\20 env\\YNABtask\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
-    },
-    {
         "merged": "G:\\20 env\\YNABtask\\app\\build\\intermediates\\res\\merged\\debug\\drawable_baseline_add_black_24dp.xml.flat",
         "source": "G:\\20 env\\YNABtask\\app\\src\\main\\res\\drawable\\baseline_add_black_24dp.xml"
+    },
+    {
+        "merged": "G:\\20 env\\YNABtask\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "G:\\20 env\\YNABtask\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
         "merged": "G:\\20 env\\YNABtask\\app\\build\\intermediates\\res\\merged\\debug\\layout_transaction_item.xml.flat",
@@ -70,10 +70,6 @@
     {
         "merged": "G:\\20 env\\YNABtask\\app\\build\\intermediates\\res\\merged\\debug\\layout_ransaction_fragment.xml.flat",
         "source": "G:\\20 env\\YNABtask\\app\\src\\main\\res\\layout\\ransaction_fragment.xml"
-    },
-    {
-        "merged": "G:\\20 env\\YNABtask\\app\\build\\intermediates\\res\\merged\\debug\\drawable_baseline_remove_red_eye_black_24dp.xml.flat",
-        "source": "G:\\20 env\\YNABtask\\app\\src\\main\\res\\drawable\\baseline_remove_red_eye_black_24dp.xml"
     },
     {
         "merged": "G:\\20 env\\YNABtask\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",

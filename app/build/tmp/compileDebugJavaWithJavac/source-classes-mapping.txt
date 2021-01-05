@@ -42,8 +42,6 @@ sotra/ynab/di/modules/FragmentBuildersModule_ContributeAccountFragment.java
  sotra.ynab.di.modules.FragmentBuildersModule_ContributeAccountFragment
  sotra.ynab.di.modules.FragmentBuildersModule_ContributeAccountFragment$AccountFragmentSubcomponent
  sotra.ynab.di.modules.FragmentBuildersModule_ContributeAccountFragment$AccountFragmentSubcomponent$Builder
-sotra/ynab/MainActivity_MembersInjector.java
- sotra.ynab.MainActivity_MembersInjector
 sotra/ynab/generated/callback/OnClickListener.java
  sotra.ynab.generated.callback.OnClickListener
  sotra.ynab.generated.callback.OnClickListener$Listener
@@ -59,6 +57,8 @@ sotra/ynab/databinding/EmptyLayoutBindingImpl.java
  sotra.ynab.databinding.EmptyLayoutBindingImpl
 sotra/ynab/ui/budgetFragment/BudgetFragment_MembersInjector.java
  sotra.ynab.ui.budgetFragment.BudgetFragment_MembersInjector
+sotra/ynab/ui/MainActivity_MembersInjector.java
+ sotra.ynab.ui.MainActivity_MembersInjector
 sotra/i/chachingdemo/di/DaggerAppComponent.java
  sotra.i.chachingdemo.di.DaggerAppComponent
  sotra.i.chachingdemo.di.DaggerAppComponent$1

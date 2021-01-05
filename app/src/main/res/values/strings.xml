@@ -7,14 +7,11 @@
     <string name="accounts">accounts</string>
     <string name="account">account</string>
     <string name="no_internet">Please Check your internet connection</string>
-    <string name="text_confirm">Confirm</string>
     <string name="text_cancel">Cancel</string>
-    <string name="select_acc">Pleas select account  type . </string>
     <string name="fill_acc_data">Please fill coming inputs to create new Account.</string>
     <string name="create">Create</string>
     <string name="acc_name">Account name</string>
     <string name="acc_balance">Account balance</string>
-    <string name="create_acc">Create account</string>
     <string name="empty_error">Please Fill data</string>
     <string name="acc_created">Account Created</string>
     <string name="transaction_created">Transaction  Created</string>
@@ -29,4 +26,8 @@
     <string name="empty_data">"No transaction for this payee "</string>
     <string name="add_transaction">Add transaction</string>
     <string name="set_transaction_amount">"Please add Transaction amount "</string>
+    <string name="budgets_ist">Budget list</string>
+    <string name="account_List">Account list</string>
+    <string name="payee_transactionList">Payee Transactions  list</string>
+    <string name="payee_list">Select a Payee </string>
 </resources>

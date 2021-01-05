@@ -6,7 +6,7 @@ import dagger.Subcomponent;
 import dagger.android.AndroidInjector;
 import dagger.multibindings.ClassKey;
 import dagger.multibindings.IntoMap;
-import sotra.ynab.MainActivity;
+import sotra.ynab.ui.MainActivity;
 
 @Module(subcomponents = MainActivityModule_ContributeMainActivity.MainActivitySubcomponent.class)
 public abstract class MainActivityModule_ContributeMainActivity {
